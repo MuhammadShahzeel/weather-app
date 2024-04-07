@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#input {
+  width: 70%;
+}
+#city {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+#humidity {
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: 0.5rem 0px;
+}
+
+#btn {
+  background: rgb(2, 0, 36);
+  background: -moz-linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
+  border: none;
+  width: 7.5rem;
+}
+
+#btn:hover {
+  background: rgb(2, 0, 36);
+  background: -moz-linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(29, 29, 150, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(29, 29, 150, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(29, 29, 150, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
+}
+#card:hover {
+  background: rgb(2, 0, 36);
+  background: -moz-linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(29, 29, 150, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(29, 29, 150, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(29, 29, 150, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
+}
+
+#card {
+  background: rgb(2, 0, 36);
+  background: -moz-linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
+  color: white;
+
+  width: 25rem;
+  height: 30rem;
+  border-radius: 20px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  margin-top: 3rem;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#search-area {
+  width: 90%;
+}
+
+h1 {
+  font-size: 3.7rem;
+
+  padding: 0;
+  font-weight: 500;
+}
+p {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+#des {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+#temp {
+  font-size: 4.6rem;
+  font-weight: 800;
+  margin-top: -0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+#error {
+  background: rgb(2, 0, 36);
+  background: -moz-linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    9deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
+  color: white;
+
+  width: 25rem;
+  height: 5rem;
+  border-radius: 20px;
+  margin-top: 3rem;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  /* display: none; */
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+img {
+  width: 7rem;
+}
+
+@media (max-width: 767px) {
+  #search-area {
+    width: 100%;
+  }
+}
+@media (max-width: 515px) {
+  #search-area {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  #input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #card {
+    width: 22rem;
+
+    height: 30rem;
+  }
+  #des {
+    font-size: 2rem;
+  }
+
+  #temp {
+    font-size: 4.2rem;
+  }
+
+  #city {
+    font-size: 3.35rem;
+  }
+  #humidity {
+    font-size: 1.4rem;
+  }
+  #error {
+    width: 20rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 433px) {
+  #input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #card {
+    width: 20rem;
+
+    height: 30rem;
+    padding: 0px 0px !important;
+  }
+  #des {
+    font-size: 1.8rem;
+  }
+
+  #temp {
+    font-size: 4.1rem;
+  }
+
+  #city {
+    font-size: 3.25rem;
+  }
+  #humidity {
+    font-size: 1.3rem;
+  }
+  #error {
+    width: 19rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  #input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #card {
+    width: 18rem;
+
+    height: 28rem;
+  }
+  #des {
+    font-size: 1.5rem;
+  }
+
+  #temp {
+    font-size: 3.8rem;
+  }
+
+  #city {
+    font-size: 2.9rem;
+  }
+  #humidity {
+    font-size: 1.2rem;
+  }
+  #error {
+    width: 19rem;
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 353px) {
+  #search-area {
+    width: 95%;
+  }
+
+  #input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #card {
+    width: 16rem;
+
+    height: 25rem;
+  }
+  #des {
+    font-size: 1.3rem;
+  }
+
+  #temp {
+    font-size: 3.2rem;
+  }
+
+  #city {
+    font-size: 2.5rem;
+  }
+  #humidity {
+    font-size: 0.95rem;
+  }
+  #error {
+    width: 17rem;
+    font-size: 1.1rem;
+  }
+}
